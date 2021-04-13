@@ -25,17 +25,18 @@ class _MyAppState extends State<MyApp> {
         appBar: AppBar(
           title: Text('Manipulation Data Example'),
         ),
-        body: Center(
-          child: Column(
+        body: Container(
+          child:
+              Fetch(), /*Column(
             children: [
-              Fetch(),
-              Created(),
+              
+              /*Created(),
               Delete(),
-              Update(),
-            ],
-          ),
+              Update(),*/
+            ],*/
         ),
       ),
+      //),
     );
   }
 }
